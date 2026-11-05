@@ -4,6 +4,9 @@
   "version": "1.2.0",
   "author": "SynthReaper <codewithaditya8002@gmail.com>",
   "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
