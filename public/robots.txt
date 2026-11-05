@@ -1,0 +1,17 @@
+# robots.txt — Manipal University Jaipur Patent Portal
+# Statutory Compliance: Indian Patents Act 1970 (Section 39 Absolute Novelty)
+# Disallow indexing of private invention disclosures, reviewer dockets, and administrative workspaces.
+
+User-agent: *
+Allow: /$
+Allow: /login$
+Allow: /signup$
+Disallow: /admin/
+Disallow: /superadmin/
+Disallow: /draft/
+Disallow: /application/
+Disallow: /docket/
+Disallow: /verify/
+Disallow: /reset-authenticator/
+
+Sitemap: https://ecell-patentportal.vercel.app/sitemap.xml
