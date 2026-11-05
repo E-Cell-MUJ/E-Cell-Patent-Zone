@@ -1,16 +1,23 @@
 # Global repository ownership
 * @SynthReaper
 
-# Security policies and defense-in-depth specifications
-/SECURITY.md @SynthReaper
-/docs/security/ @SynthReaper
+# Frontend & UI Architecture
+/src/components/ @SynthReaper @E-Cell-MUJ/frontend-developers
+/src/pages/ @SynthReaper @E-Cell-MUJ/frontend-developers
+/src/styles/ @SynthReaper @E-Cell-MUJ/frontend-developers
+/src/assets/ @SynthReaper @E-Cell-MUJ/frontend-developers
+/index.html @SynthReaper @E-Cell-MUJ/frontend-developers
 
-# Database migrations, RLS security assertions, and PostgREST RPC definitions
-/supabase/migrations/ @SynthReaper
-/supabase/tests/ @SynthReaper
+# Backend, Database migrations, and PostgREST assertions
+/supabase/ @SynthReaper @E-Cell-MUJ/backend-security
+/src/lib/ @SynthReaper @E-Cell-MUJ/backend-security
+
+# Security policies and defense-in-depth specifications
+/SECURITY.md @SynthReaper @E-Cell-MUJ/backend-security
+/docs/security/ @SynthReaper @E-Cell-MUJ/backend-security
 
 # Core authentication, authorization gates, and routing
-/src/features/auth/ @SynthReaper
+/src/features/auth/ @SynthReaper @E-Cell-MUJ/backend-security
 /src/components/ProtectedRoute.tsx @SynthReaper
 /src/components/MfaGate.tsx @SynthReaper
 
