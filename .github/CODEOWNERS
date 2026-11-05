@@ -1,0 +1,18 @@
+# Global repository ownership
+* @SynthReaper
+
+# Security policies and defense-in-depth specifications
+/SECURITY.md @SynthReaper
+/docs/security/ @SynthReaper
+
+# Database migrations, RLS security assertions, and PostgREST RPC definitions
+/supabase/migrations/ @SynthReaper
+/supabase/tests/ @SynthReaper
+
+# Core authentication, authorization gates, and routing
+/src/features/auth/ @SynthReaper
+/src/components/ProtectedRoute.tsx @SynthReaper
+/src/components/MfaGate.tsx @SynthReaper
+
+# Centralized environment configuration
+/src/config/ @SynthReaper

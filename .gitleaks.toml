@@ -1,0 +1,17 @@
+[extend]
+
+[allowlist]
+description = "Ignore development mock tokens, docs examples, and test fixtures"
+paths = [
+    '''\.env\.example$''',
+    '''SECURITY\.md$''',
+    '''src/test/.*''',
+    '''supabase/tests/.*''',
+    '''src/features/auth/demoAuth\.ts$'''
+]
+regexes = [
+    '''JBSWY3DPEHPK3PXP''',
+    '''0x4[A-Za-z0-9]+''',
+    '''mock-key''',
+    '''mock-instance'''
+]

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Directorate of Research & IPR Cell (Official Inquiries)
+    url: https://jaipur.manipal.edu/research/ipr-cell
+    about: For official patent guidance, statutory IPO procedures, or institutional clearances.
+  - name: Security Advisory & Vulnerability Reports (Confidential)
+    url: mailto:codewithaditya8002@gmail.com?subject=[SEC-URGENT]%20Patent%20Portal
+    about: Directly report vulnerabilities or sensitive security findings to the lead maintainer.

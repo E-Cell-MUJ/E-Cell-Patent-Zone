@@ -1,0 +1,68 @@
+# Private documentation & scripts
+docs/private/
+docs/private/*
+scripts/
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build artifacts
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables & secrets (allow only the public example template)
+.env*
+!.env.example
+
+# Certificates, Keys & Credentials
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+*.cer
+*.id_rsa
+*.id_ed25519
+
+# Local Databases & Backups
+*.sqlite
+*.sqlite3
+*.db
+*.sql.gz
+*.dump
+_backup/
+
+# Local Uploads & Temp Storage
+uploads/
+temp_uploads/
+tmp/
+temp/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local tool caches
+.impeccable/hook.cache.json
+scratch/
+
+.vercel
